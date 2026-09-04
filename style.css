@@ -1,0 +1,60 @@
+/* Configurações básicas da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Organização do artigo com Flexbox */
+article {
+  display: flex;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.artigo-autor {
+  font-weight: bold;
+  color: #555;
+}
+
+/* Estilo dos botões de reação */
+button {
+  background-color: #e0e0e0;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #d0d0d0;
+}
